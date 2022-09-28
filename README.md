@@ -10,11 +10,21 @@ We need to first create a new project with create-react-app called google drive 
 
 ## Create New Project
 
+`cd desktop`
+
 `npx create-react-app google-drive`
+`cd google-drive`
 
-IMAGE 1
+IMAGE 9
 
-IMAGE 2
+## Run The Project
+
+Run the project with `npm start` and it will look like below.
+
+IMAGE 10
+
+___
+
 
 After the project is created, we will delete some of the boiler plate files.
 
@@ -32,19 +42,28 @@ We will make all `margin` to `0` in the `index.css` file.
 
 IMAGE 6
 
-Delete original `package.json` file.
+The Output Now Looks Like This
+
+IMAGE 11
 
 
-## Run The Project
+## Create Components
 
-Run the project with `npm start` and it will look like below.
+Next, create a `components` folder inside `src` folder. And in it create a `Header.js` file. 
 
-IMAGE 7
+`mkdir src/components`
 
-Initialize `npm init` to add the new `package.json` file
+`touch src/components/Header.js`
 
-IMAGE 8
+In the `App.js` file, we will include it.
 
+IMAGE 12
+
+Now, in the `Header.js` file we will add the below styled components. We have also installed the package of `styled-components` in the integrated terminal.
+
+IMAGE 13
+
+Now, we will use the created Styled components and also show a image using `img` tag in the `Header.js` file.
 
 
 
