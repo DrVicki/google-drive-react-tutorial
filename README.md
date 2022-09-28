@@ -61,9 +61,13 @@ IMAGE 12
 
 Now, in the `Header.js` file we will add the below styled components. We have also installed the package of `styled-components` in the integrated terminal.
 
-IMAGE 13
+styled-components
 
 Now, we will use the created Styled components and also show a image using `img` tag in the `Header.js` file.
+
+IMAGE 14
+
+
 
 
 
